@@ -34,7 +34,7 @@ module.exports = {
 			const categories = {};
 			let msg = "";
 
-			msg += `╔═══════════════╗\n💫 THUNDER LIST 💫\n╚═══════════════╝`;
+			msg += `╔═══════════════╗\n💫 ᴍɪᴅᴏᴜʀɪʏᴀ LIST 💫\n╚═══════════════╝`;
 
 			for (const [name, value] of commands) {
 					if (value.config.role > 1 && role < value.config.role) continue;
@@ -61,12 +61,17 @@ module.exports = {
 			const totalCommands = commands.size;
 			msg += `\nحاليا البوت لديه ${totalCommands} أمر يمكن إستخدامه\n`;
 			msg += `أكتب ${prefix} أوامر من أجل أن ترى كيفية إستخدام ذالك الأمر\n`;
-			msg += `🧿 | THUNDER`;
+			msg += `💚 | ᴍɪᴅᴏᴜʀɪʏᴀ`;
 
 
 			const helpListImages = [
 	
-        "https://i.postimg.cc/3rXfkCCw/FB-IMG-1719261281834.jpg"
+        "https://i.ibb.co/pzY9C1q/images-2024-11-02-T221234-654.jpg",
+				"https://i.ibb.co/KKCqKNF/images-2024-11-02-T221220-635.jpg",
+				"https://i.ibb.co/9GbwGBS/images-2024-11-02-T221142-231.jpg",
+				"https://i.ibb.co/28kprSm/images-2024-11-02-T221108-131.jpg",
+				"https://i.ibb.co/myMn8DB/images-2024-11-02-T221059-359.jpg",
+				"https://i.ibb.co/FWYZhsb/images-2024-11-02-T221048-923.jpg"
 			];
 
 
